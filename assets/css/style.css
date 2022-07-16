@@ -1,0 +1,143 @@
+.container {
+    height: 100%;
+}
+
+#viewHighScoreBtn {
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 6px;
+    padding: 2px 5px 2px 5px;
+    font-size: 15px;
+}
+
+#questionsDiv {
+    padding-top: 30vh;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    font-size: 25px;
+    text-align: center;
+}
+
+#startBtn {
+    background-color: darkblue;
+    padding: 5px 10px 5px 10px;
+    font-size: 25px;
+    color: white;
+}
+
+#start_P {
+    font-size: 25px;
+}
+
+
+#timer {
+    float: right;
+}
+.highScoreBtn {
+    position: relative;
+    padding: 10px;
+    width: auto;
+    align-items: center;
+    text-align:center;
+}
+
+.highScoreBtn button {
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    padding:5px 10px 5px 10px;
+}
+
+button {
+    border-radius: 6px;
+}
+
+textarea {
+    width: 92%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: darkblue;
+    margin-left: 30%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+li {
+    background-color: darkblue;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    width: auto;
+    font-size: 21px;
+    color: white;
+    border-radius: 6px;
+
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+
+@media screen and (max-width: 786px) {
+
+      body {
+          max-width: 786px;
+      }
+  #container {
+      position: relative;
+      left: 20%;
+  }
+
+  a {
+      margin-left: 20%;
+  }
+      #goBack {
+          
+          position: relative;
+          left: 55%;
+      }
+
+      #clear {
+          
+          position: relative;
+          right: 5%;
+          
+      }
+  }
+      
+@media screen and (max-width: 640px) {
+body {
+        min-width: 640px;
+    }
+#wrapper {
+    position: absolute;
+    left: 10%;
+}
+a {
+    margin-left: 10%;
+}
+
+   
+}
